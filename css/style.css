@@ -68,3 +68,13 @@ body {
 .result-card p {
   margin-bottom: 12px;
 }
+
+@media (max-width: 500px) {
+  .search-area {
+    flex-direction: column;
+  }
+
+  #search-button {
+    width: 100%;
+  }
+}
